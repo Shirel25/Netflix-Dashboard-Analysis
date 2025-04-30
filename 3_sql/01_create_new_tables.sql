@@ -60,3 +60,22 @@ INSERT INTO rating_description (rating, description) VALUES
 ('TV-Y', 'Suitable for All Children'),
 ('TV-Y7', 'Suitable for Ages 7+');
 
+-----------------------------------------------------------------------------------------------
+-- Create durations table
+-----------------------------------------------------------------------------------------------
+-- This table extracts key information related to content duration (in minutes or seasons),
+-- allowing for detailed analysis of movie and TV show lengths over time.
+
+CREATE TABLE durations AS
+SELECT 
+    show_id,
+	title,
+	type,
+	release_year,
+    duration_num,
+	duration_unit,
+	period
+FROM netflix_titles
+WHERE duration_num IS NOT NULL AND duration_unit IS NOT NULL;
+
+

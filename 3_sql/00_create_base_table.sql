@@ -14,7 +14,10 @@ CREATE TABLE netflix_titles (
     rating TEXT,
     duration TEXT,
     listed_in TEXT,
-    description TEXT
+    description TEXT,
+	duration_num INTEGER,
+    duration_unit TEXT,
+    period TEXT
 );
 
 SELECT * 

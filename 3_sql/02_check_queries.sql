@@ -57,3 +57,31 @@ LIMIT 10;
 -- Check rating_description table
 -----------------------------------------------------------------------------------------------
 SELECT * FROM rating_description;
+
+-----------------------------------------------------------------------------------------------
+-- Check durations table
+-----------------------------------------------------------------------------------------------
+SELECT * FROM durations;
+
+-- Average duration of movies before and after 2015
+SELECT period, ROUND(AVG(duration_num), 1) AS avg_duration
+FROM durations
+WHERE type = 'Movie' AND duration_unit = 'min'
+GROUP BY period
+ORDER BY period;
+
+-- Top 10 longest movies
+SELECT title, duration_num AS duration_minutes
+FROM durations
+WHERE type = 'Movie' AND duration_unit = 'min'
+ORDER BY duration_num DESC
+LIMIT 10;
+
+-- Top 10 TV shows with the most seasons
+SELECT title, duration_num AS seasons
+FROM durations
+WHERE type = 'TV Show' AND duration_unit LIKE 'season%'
+ORDER BY duration_num DESC
+LIMIT 10;
+
+
