@@ -12,7 +12,7 @@ This project analyzes the Netflix dataset to uncover insights about content dist
 
 ## 📁 Repository Structure
 
-Netflix-Dashboard-Analysis/
+```Netflix-Dashboard-Analysis/
 ├── 1_data/ # Raw dataset, cleaned dataset, posters and countries files 
 ├── 2_cleaning/ # Data cleaning and preprocessing script
 ├── 3_sql/ # PostgreSQL scripts for database structure and queries
@@ -20,13 +20,13 @@ Netflix-Dashboard-Analysis/
 ├── 5_dashboard/ # Power BI file and dashboard resources
 ├── 6_presentation/ # Final report and presentation materials
 └── README.md # This file
-
+```
 ---
 
 ## 🚀 How to Use the Project
 
 1. **Download the Power BI Dashboard**
-   - Go to the [`5_dashboard/Dashboard`](https://github.com/Shirel25/Netflix-Dashboard-Analysis/tree/main/Dashboard/5_dashboard) folder in this repository.
+   - Go to the [`5_dashboard/Dashboard`](https://github.com/Shirel25/Netflix-Dashboard-Analysis/tree/main/5_dashboard/Dashboard) folder in this repository.
    - Download the file `netflix_dashboard.pbix`.
    - Open it with [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
