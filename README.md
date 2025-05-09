@@ -75,7 +75,7 @@ This project analyzes the Netflix dataset to uncover insights about content dist
 ## 👩‍💻 Author
 
 **Shirel Amozieg**  
-Data Analyst 
+Data Analyst  
 Passionate about data, insight generation, and storytelling  
 [LinkedIn](https://www.linkedin.com/in/shirel-amozieg/)
 
@@ -83,12 +83,12 @@ Passionate about data, insight generation, and storytelling
 
 ## 📄 License
 
-This project is for educational and portfolio purposes only.
+This project is for educational and portfolio purposes only.  
 Please do not reuse or redistribute without explicit permission.
 
 ---
 
 ## 🙌 Acknowledgements
 
-Thanks to the Kaggle and TMDB communities for making amazing datasets and APIs available.
+Thanks to the Kaggle and TMDB communities for making amazing datasets and APIs available.  
 Thanks to **Power BI Park** for inspiring the visual design of the dashboard. 
