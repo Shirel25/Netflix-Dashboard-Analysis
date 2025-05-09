@@ -1,4 +1,4 @@
-# 🎬 Netflix Dashboard Analysis
+# 🎬 Behind the Screens: A Netflix Data Story
 
 Welcome to the **Netflix Dashboard Analysis** project — an end-to-end data story built to explore, clean, and visualize Netflix's catalog in a compelling and interactive way. This project combines data engineering, SQL, API integration, and dashboard design using Power BI.
 
