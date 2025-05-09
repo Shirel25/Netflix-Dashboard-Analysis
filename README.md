@@ -90,5 +90,6 @@ Please do not reuse or redistribute without explicit permission.
 
 ## 🙌 Acknowledgements
 
-Thanks to the Kaggle and TMDB communities for making amazing datasets and APIs available.  
-Thanks to **Power BI Park** for inspiring the visual design of the dashboard. 
+Thanks to the Kaggle and TMDB communities for making amazing datasets and APIs available.    
+Special thanks to **Power BI Park** for inspiring the visual design of this dashboard.  
+And above all, huge thanks to the [Developers Institute](https://developers.institute/), the training that awakened my passion for data and gave me the tools to bring this project to life. 
