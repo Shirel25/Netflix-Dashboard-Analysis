@@ -25,15 +25,28 @@ This project analyzes the Netflix dataset to uncover insights about content dist
 
 ## 🚀 How to Use the Project
 
-1. **Download the Power BI Dashboard**
+### 1. 🖥️ View the Dashboard Online (Recommended)
+
+- 👉 [Click here to explore the live Power BI Dashboard](https://app.powerbi.com/links/jP6Nlgp4Zj?ctid=e2c8f23b-7029-4500-8037-7b8982a4f814&pbi_source=linkShare)  
+  *(Interactive and read-only – no installation required)*
+
+---
+
+### 2. 💾 Download the Power BI Dashboard (Offline)
+
    - Go to the [`5_dashboard/Dashboard`](https://github.com/Shirel25/Netflix-Dashboard-Analysis/tree/main/5_dashboard/Dashboard) folder in this repository.
    - Download the file `netflix_dashboard.pbix`.
    - Open it with [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
-2. **Explore the interactive dashboard**
+---
+
+### 3. 🔎 Explore the Interactive Features
+
    - Filter by title, genre, audience, actor, release year, type or poster.
    - Enjoy the custom gallery view with **movie posters** and **country flags**.
    - Visualize key insights such as genre breakdown, trends over time and content distribution.
+
+--- 
 
 > 💡 *Want to understand or reproduce the full pipeline?*  
 > You can explore the folders:
